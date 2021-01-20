@@ -81,19 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./assets/js/languageSelector.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./assets/css/color/purple.css");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./assets/js/languageSelector.js":
-/*!***************************************!*\
-  !*** ./assets/js/languageSelector.js ***!
-  \***************************************/
+/***/ "./assets/css/color/purple.css":
+/*!*************************************!*\
+  !*** ./assets/css/color/purple.css ***!
+  \*************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-eval("var mobileQuery = getComputedStyle(document.body).getPropertyValue(\"--phoneWidth\");\n\nvar isMobile = function isMobile() {\n  return window.matchMedia(mobileQuery).matches;\n};\n\nvar languageSelector = document.querySelector(\".language-selector-current\");\nvar moreLanguagesContainer = document.querySelector(\".language-selector__more\");\ndocument.body.addEventListener(\"click\", function () {\n  if (!isMobile() && moreLanguagesContainer && !moreLanguagesContainer.classList.contains(\"hidden\")) {\n    moreLanguagesContainer.classList.add(\"hidden\");\n  }\n});\nlanguageSelector && languageSelector.addEventListener(\"click\", function (e) {\n  if (!isMobile()) {\n    e.stopPropagation();\n    moreLanguagesContainer.classList.toggle(\"hidden\");\n  }\n});\n\n//# sourceURL=webpack:///./assets/js/languageSelector.js?");
+eval("// extracted by mini-css-extract-plugin\nmodule.exports = {\"headings--one-size\":\"headings--one-size\",\"center\":\"center\",\"left\":\"left\",\"right\":\"right\",\"twitter-tweet\":\"twitter-tweet\",\"container\":\"container\",\"full\":\"full\",\"content\":\"content\",\"hidden\":\"hidden\",\"header\":\"header\",\"header__inner\":\"header__inner\",\"header__logo\":\"header__logo\",\"menu\":\"menu\",\"menu__inner\":\"menu__inner\",\"menu__inner--desktop\":\"menu__inner--desktop\",\"menu__inner--mobile\":\"menu__inner--mobile\",\"menu__sub-inner\":\"menu__sub-inner\",\"menu__sub-inner-more\":\"menu__sub-inner-more\",\"menu__sub-inner-more-trigger\":\"menu__sub-inner-more-trigger\",\"spacer\":\"spacer\",\"language-selector\":\"language-selector\",\"language-selector-current\":\"language-selector-current\",\"language-selector__more\":\"language-selector__more\",\"menu-trigger\":\"menu-trigger\",\"logo\":\"logo\",\"pagination\":\"pagination\",\"pagination__title\":\"pagination__title\",\"pagination__title-h\":\"pagination__title-h\",\"pagination__buttons\":\"pagination__buttons\",\"button\":\"button\",\"button__text\":\"button__text\",\"next\":\"next\",\"button__icon\":\"button__icon\",\"previous\":\"previous\",\"index-content\":\"index-content\",\"framed\":\"framed\",\"post\":\"post\",\"posts\":\"posts\",\"post-meta\":\"post-meta\",\"post-title\":\"post-title\",\"post-tags\":\"post-tags\",\"post-content\":\"post-content\",\"post-cover\":\"post-cover\",\"post--regulation\":\"post--regulation\",\"hanchor\":\"hanchor\",\"footnotes\":\"footnotes\",\"language-css\":\"language-css\",\"token\":\"token\",\"string\":\"string\",\"language-scss\":\"language-scss\",\"style\":\"style\",\"atrule\":\"atrule\",\"attr-value\":\"attr-value\",\"boolean\":\"boolean\",\"control\":\"control\",\"directive\":\"directive\",\"entity\":\"entity\",\"inserted\":\"inserted\",\"keyword\":\"keyword\",\"number\":\"number\",\"regex\":\"regex\",\"statement\":\"statement\",\"url\":\"url\",\"atrule-id\":\"atrule-id\",\"attr-name\":\"attr-name\",\"operator\":\"operator\",\"placeholder\":\"placeholder\",\"tag-id\":\"tag-id\",\"unit\":\"unit\",\"variable\":\"variable\",\"command-line-prompt\":\"command-line-prompt\",\"deleted\":\"deleted\",\"function\":\"function\",\"property\":\"property\",\"language-html\":\"language-html\",\"language-javascript\":\"language-javascript\",\"punctuation\":\"punctuation\",\"selector\":\"selector\",\"tag\":\"tag\",\"cdata\":\"cdata\",\"comment\":\"comment\",\"doctype\":\"doctype\",\"prolog\":\"prolog\",\"namespace\":\"namespace\",\"line-highlight\":\"line-highlight\",\"line-numbers\":\"line-numbers\"};\n\n//# sourceURL=webpack:///./assets/css/color/purple.css?");
 
 /***/ })
 
